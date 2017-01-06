@@ -1,16 +1,16 @@
 body{
 	background-color: #FFEECE;
 }
-h1{
+h1 {
 	font-color: #FFC30D; text-transform: uppercase;
 }
 
-p{
-	font-color: #121603; font-family: sans-serif; 
+p {
+	font-color: #121603; font-family: "sans-serif"; 
 }
-#second{
+#attention {
 	font-weight: bold;
 }
-.important{
+.explanation {
 	font-color: #FF6A5F; font-size: 24px;
 }
