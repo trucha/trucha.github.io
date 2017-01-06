@@ -6,11 +6,13 @@ h1 {
 }
 
 p {
-	font-color: #121603; font-family: "sans-serif"; 
+	font-color: #121603; font-family: sans-serif; 
 }
+
 #attention {
 	font-weight: bold;
 }
+
 .explanation {
-	font-color: #FF6A5F; font-size: 24px;
+	font-color: #FF6A5F; font-size: 48px;
 }
