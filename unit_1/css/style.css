@@ -1,7 +1,9 @@
 body{
 	background-color: #01A79C
 }
-h1,{color: #FFC30D; text-transform: uppercase;}
+h1{
+	color: #FFC30D; text-transform: uppercase;
+}
 
 p{
 	color: #121603; font: sans-serif; 
