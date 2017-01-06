@@ -8,3 +8,9 @@ h1 {
 p {
 	font-color: #121603; font-family: sans-serif; 
 }
+#second {
+	font-weight: bold;
+}
+.important {
+	font-color: #FF6A5F; font-size: 24px;
+}
