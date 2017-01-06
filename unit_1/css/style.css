@@ -3,11 +3,11 @@ body{
 }
 
 h1 {
-	font color: #FFC30D; text-transform: uppercase;
+	color: #FFC30D; text-transform: uppercase;
 }
 
 p {
-	font color: #121603; font-family: sans-serif; 
+	color: #121603; font-family: sans-serif; 
 }
 
 #attention {
