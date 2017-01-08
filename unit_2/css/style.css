@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+  background: url("background.jpg");
+  background-size: cover;
+  color: #fff;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+hr {
+  width: 400px;
+}
+
+h3 {
+  font-size: 18px;
+}
+h2 {
+  font-size: 22px;
+}
