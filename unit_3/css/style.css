@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|PT+Sans');
+
+
 *{
 	margin: 0;
 	padding: 0;
@@ -8,7 +11,7 @@ body{
 	background: url("background.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	font-family: sans-serif;
+	font-family: 'PT Sans', sans-serif;
 
 }
 
@@ -29,10 +32,15 @@ nav a{
 	margin-right: 20px;
 }
 
+#logo {
+width: 80%;
+max-width: 300px;
+}
 
 main{
 	margin-top: 20px;
 }
+
 
 h4{
 	font-size: 14px;
@@ -58,19 +66,21 @@ section{
 h5{
 	font-size: 22px;
 	text-transform: uppercase;
+	font-weight: 900;
+
 }
 
-ul{
+li{
 	font-size: 18px;
 	color: #2d2d2d;
 	text-align: center;
 	list-style-type: none;
 	padding: 10px;
-	font-family: verdana, sans-serif;
+	font-family: 'Arima Madurai', cursive;
 	font-weight: bold;
 }
 
-li{
+ul{
 	margin-top: 20px;
 	padding-top: 10px;
 	background-color: rgba(255,191,59,0.5);
@@ -78,17 +88,16 @@ li{
 
 
 #slogan {
-	font-style: italic;
 	font-size: 36px;
 	text-align: center;
-	font-family: Georgia, serif;
+	font-family: 'Arima Madurai', cursive;
 	padding: none;
 	color: #ff9685;
 
 }
 #contact{
 	font-size: 22px;
-	color: #FF137F;
+	color: #FFBF3B;
 	background-color: #2d2d2d;
 	padding: 5px;
 }

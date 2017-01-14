@@ -1,0 +1,24 @@
+/* CSS Simple Reset */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+.column {
+width: 33.333%;
+float: left;
+}
+
+
+.column2 {
+width: 33.333%;
+float: left;
+}
+
+.sidebar {
+width: 33.333%;
+float: left;
+}
+
