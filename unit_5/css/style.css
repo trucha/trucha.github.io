@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|PT+Sans');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+body{
+	background: url("../images/backgroundSecond.png") no-repeat;
+	background-size: cover;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px; /* 1em=16px*/
+
+}
+
+header{
+	background-color: #444029; /*gray*/
+	padding: 1.5em;
+}
+
+nav a{
+	margin-right: 1.5em;
+}
+
+a {
+	color: #454545;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+
+p{
+	font-size: .5em;
+	text-align: center;
+	font-family: 'Arima Madurai', cursive;
+	padding: none;
+	color: #F8D51C;
+	
+}
+
+#logo {
+width: 10%;
+margin-right: 3em;
+}
+
+#navigation {
+	padding: 1.5em;
+	background-color: #F8D51C; /*yellow*/
+	margin: auto;
+	align-content: center;
+}
+
+
+	
+
+
