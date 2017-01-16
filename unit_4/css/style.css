@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|PT+Sans');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+body{
+	text-align: center;
+	background: url("../images/background.jpg") no-repeat;
+	background-size: cover;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px; /* 1em=16px*/
+
+}
+
+header{
+	background-color:#FFBF3B;
+	padding: 20px;
+}
+nav a{
+	margin-right: 20px;
+}
+
+a {
+	color: #454545;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+main{
+	margin-top: 1.5em;
+}
+
+section{
+	padding-left: 25%;
+	padding-right: 25%
+}
+
+h4{
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 200;
+	color: #ff9685;
+	padding-bottom: 1em;
+}
+
+p{
+	font-size: 1em;
+	color: #FFE1D7;
+	padding-top: 20px;
+	line-height: 1.5em;
+	
+}
+
+
+h5{
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 900;
+
+}
+
+li{
+	font-size: 1.3em;
+	color: #2d2d2d;
+	text-align: center;
+	list-style-type: none;
+	padding: 10px;
+	font-family: 'Arima Madurai', cursive;
+	font-weight: bold;
+	line-height: 1em;
+}
+
+ul{
+	margin-top: 20px;
+	padding-top: 10px;
+	background-color: rgba(255,191,59,0.5);
+}
+
+
+#logo {
+width: 50%;
+max-width: 300px;
+}
+
+
+#slogan {
+	font-size: 2.5em;
+	text-align: center;
+	font-family: 'Arima Madurai', cursive;
+	padding: none;
+	color: #ff9685;
+
+}
+#contact{
+	font-size: 22px;
+	color: #FFBF3B;
+	background-color: #2d2d2d;
+	padding: 0.5em;
+}
+

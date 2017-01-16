@@ -5,19 +5,39 @@ padding: 0;
 box-sizing: border-box;
 }
 
+body{
+	font-size: 22px;
+	 /*should this center the whole page?*/
+}
 
-.column {
+/*can I have section1, section2, section3?*/
+section{
+	font-family: arial;
+	color: red;
+}
+
+content{
+	font-family: serif;
+	color: blue;
+}
+
+aside{
+	font-family: monospace;
+	color: green;
+}
+
+
+.first {
 width: 33.333%;
 float: left;
 }
 
-
-.column2 {
+.second {
 width: 33.333%;
 float: left;
 }
-
-.sidebar {
+/*why is this showing as ordered list?*/
+.third {
 width: 33.333%;
 float: left;
 }
