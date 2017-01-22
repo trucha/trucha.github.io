@@ -1,44 +1,108 @@
-/* CSS Simple Reset */
-* {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|PT+Sans');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
 }
 
 body{
-	font-size: 22px;
-	 /*should this center the whole page?*/
+	background: url("../images/backgroundSecond.png") no-repeat;
+	background-size: cover;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px; /* 1em=16px*/
+	text-align: center;
 }
 
-/*can I have section1, section2, section3?*/
-section{
-	font-family: arial;
-	color: red;
+header{
+	background-color: #444029; /*gray*/
+	padding: 1em;
 }
 
-content{
-	font-family: serif;
-	color: blue;
+a {
+	color: #454545;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1em;
+	font-weight: bold;
 }
 
-aside{
-	font-family: monospace;
-	color: green;
+nav a{
+	margin-right: 1.5em;
 }
 
+p{
+	font-size: 2em;
+	text-align: center;
+	font-family: 'Arima Madurai', cursive;
+	padding: none;
+	color: #F8D51C;
+}
 
-.first {
-width: 33.333%;
+img{
+	display: block;
+	width: 35%;
+}
+
+.clear:after{
+	content:"";
+	display: block;
+	clear: both;
+}
+
+#logo {
+width: 10%;
+margin-right: 3em;
+}
+
+#slogan{
+	font-family: 'Arima Madurai';
+	font-size: 1em;
+	text-align: center;
+	font-style: italic;
+	color: #fff;
+}
+#navigation {
+	padding: 1.5em;
+	background-color: #F8D51C; /*yellow*/
+	align-content: center;
+}
+
+#navigation nav{
+	width: 100%;
+	max-width: 900px;
+	margin: auto;
+}
+
+.logo, .welcome, .contact { float: left; }
+.logo { width: 20%; }
+.welcome { width: 60%; }
+.contact { 
+	width: 20%; 
+	font-family: sans-serif;
+	font-size: .8em;
+	text-transform: uppercase;
+	color: #F8D51C;
+	padding: .5em;
+}
+.column {
+	padding: 2em;
+	height: 28em;
+	margin: 1em;
+width: 30%;
 float: left;
 }
+.clear:after{
+	content:"";
+	display: block;
+	clear: both;
 
-.second {
-width: 33.333%;
-float: left;
+	height: 0;
+	font-size: 0;
+	visibility; hidden;
 }
-/*why is this showing as ordered list?*/
-.third {
-width: 33.333%;
-float: left;
+
+main{
+	margin-top:5em;
 }
 
