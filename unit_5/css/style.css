@@ -6,6 +6,10 @@
 	box-sizing:border-box;
 }
 
+.wrapper{
+	border: 3px red solid;
+}
+
 header{
 	/* background-color: #444029; gray*/
 	/*padding: 1em;*/
