@@ -85,18 +85,25 @@ margin-right: 3em;
 	color: #F8D51C;
 	padding: .5em;
 }
+h2{
+	color: #444029;
+	font-family: 'Arima Madurai'
+	font-size: 2em;
+	font-weight: bold;
+}
 .column {
 	padding: 2em;
-	height: 28em;
+	height: 20em;
 	margin: 1em;
 width: 30%;
 float: left;
+background-color: #F8D51C;
+
 }
 .clear:after{
 	content:"";
 	display: block;
 	clear: both;
-
 	height: 0;
 	font-size: 0;
 	visibility; hidden;
