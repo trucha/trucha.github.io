@@ -1,0 +1,18 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif');
+
+h1, h2, h3, h4, h5 {
+	font-family: Canaro;
+	color: #000;
+}
+
+hr{
+	4px solid black;
+}
+
