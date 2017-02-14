@@ -70,7 +70,7 @@ a:hover{
 /*----------------------------------------------------------*/
 
 main{
-	background-image: url("images/background.jpg");
+	background-image: url("../images/background.jpg");
 	height: 800px;
 
 }
@@ -82,19 +82,28 @@ main{
 
 .content{
 	padding: 2em;
-	width: 30%;
+	/*width: 30%;*/
 	height: 225px;
 	background-color: #fff;
 }
 
-.left, .content{float:left;}
+.left{
+	background-color: #2d2d2d;
 
-.first-row{
-	margin-left: 25%;
-	margin-right: 25%;
+}
+
+.left, .content{
+	float:left;
+width: 50%;
+}
+
+#row-one{
 	border: 5px solid white;
 }
 
+.first-entry, .second-entry, .third-entry{
+	float: left;
+}
 .clearfix:after{
 	content:".";
 	display: block;
