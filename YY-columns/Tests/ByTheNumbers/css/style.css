@@ -64,7 +64,20 @@ margin-right: 2px;
 margin-bottom: 2px;
 }
 
+article{
+	padding: 1em;
+	background-color: #000;
 
+}
+#question{
+	color: #fff;
+	font-weight: bold;
+}
+#qmark{
+	width: 3.5%;
+	margin-right: 0.5em;
+
+}
 p{
 	font-family: AkzidenzGroteskBE, sans-serif;
 }
@@ -172,7 +185,17 @@ a:hover{
 	}
 
 	@media screen and (max-width: 700px){
+		article{
+			width: 100%;
+		}
 		#firstentry, #secondentry, #thirdentry{
 			width: 100%;
+			border-left: none;
+			border-right: none;
+			border-bottom: 1px solid black;
+			margin: 0.5em;
+		}
+		a{
+			float: none;
 		}
 	}
