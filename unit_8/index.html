@@ -25,18 +25,19 @@
 <main>
 	<section class="clearfix">	
 		<div id="firstentry">
-			<!-- <img src="images/renounceSM1.jpg"> -->
-				<p><span class="number">RENOUNCE</span> One day you leave, and LEAVE everything behind. Who you are, the people who support and define you. The smells, the colors, the light. Your ways go to the Other Way.<span class="italic">The Other Life</span><span id="More-Renounce"> More</span></p>
+			<img src="images/renounceSQ.jpg" class="photo">
+			<p><span class="number">RENOUNCE</span></p>
+			<p>One day you leave, and LEAVE everything behind. <span class="italic">The Other Life</span><span id="More-Renounce"> More</span></p>
 		</div>
 
 		<div id="secondentry">
-			<!-- <img src="images/insularSM.jpg"> -->
-			<p><span class="number">INSULAR</span> Like a revolving door, everything goes in circle. Like the dog who bites its tongue, the mind regurgitates and then recycles everything again. A never ending process with some elements that sift throught the mesh. LIke the feathers of a dead chicken that flies for miles and lands in unexpected places. <span class="italic">Circular water</span> see Virgilio Piñera</p>
+			<img src="images/insularSM.jpg" class="photo">
+			<p><span class="number">INSULAR</span> Like a revolving door, everything goes in circle. <span class="italic">Circular water</span> see Virgilio Piñera <span id="More-Insular"> More</span></p>
 		</div>
 		
 		<div id="thirdentry">
-			<!-- <img src="images/survivalSM.jpg"> -->
-				<p><span class="number">SURVIVAL</span> Is it fundamental to our survival the idea that THINGS exist? or is it more important that they <span class="italic">actually </span>exist? To some, there is abundance. THose who will find the source of their lacking. To others, there is scarcity. Those who have too much of the same and nothing else.</p>
+			<img src="images/survivalSM.jpg" class="photo">
+				<p><span class="number">SURVIVAL</span> Is it fundamental to our survival the idea that things ARE?<span id="More-Survival"> More</span></p></p>
 		</div>
 	</section>
 
@@ -74,7 +75,27 @@
 </div>
 
 		<section id="More-RenouncePopUp">
-			
+		<div id="CloseBar">
+		<p class="closeText">X CLOSE</p>
+		</div>
+		<img src="images/renounceSQ.jpg">
+			<p class="popUpText">RENOUNCE: One day you leave, and LEAVE everything behind. The Other Life. Who you are, the people who support and define you. The smells, the colors, the light. Your ways go to the Other Way.The Other Life</p>
+		</section>
+
+		<section id="More-InsularPopUp">
+		<div id="CloseBar">
+		<p class="closeText">X CLOSE</p>
+		</div>
+		<img src="images/insularSQ.jpg">
+			<p class="popUpText">INSULAR: Like a revolving door, everything goes in circle. Like the dog who bites its tongue, the mind regurgitates and then recycles everything again. A never ending process with some elements that sift throught the mesh. LIke the feathers of a dead chicken that flies for miles and lands in unexpected places. <span class="italic">Circular water</span> see Virgilio Piñera</p>
+		</section>
+
+		<section id="More-SurvivalPopUp">
+		<div id="CloseBar">
+		<p class="closeText">X CLOSE</p>
+		</div>
+		<img src="images/survivalSM.jpg">
+			<p class="popUpText">SURVIVAL: Is it fundamental to our survival the idea that things ARE? That we can own them or have them? or is it more important that they <span class="italic">actually </span>exist? To some, there is abundance. THose who will find the source of their lacking. To others, there is scarcity. Those who have too much of the same and nothing else.</p>
 		</section>
 
 <script type="text/javascript">
@@ -83,7 +104,35 @@
 		$('#More-Renounce').click(function(){
 			$('#More-RenouncePopUp').addClass('active');
 		});
+		});
+		$(document).ready(function(){
+		$('#CloseBar').click(function(){
+			$('#More-RenouncePopUp').removeClass('active');
+		});
 	});
+
+	$(document).ready(function(){
+		$('#More-Insular').click(function(){
+			$('#More-InsularPopUp').addClass('active');
+		});
+		});
+		$(document).ready(function(){
+		$('#CloseBar').click(function(){
+			$('#More-InsularPopUp').removeClass('active');
+		});
+	});
+
+	$(document).ready(function(){
+		$('#More-Survival').click(function(){
+			$('#More-SurvivalPopUp').addClass('active');
+		});
+		});
+		$(document).ready(function(){
+		$('#CloseBar').click(function(){
+			$('#More-SurvivalPopUp').removeClass('active');
+		});
+	});
+
 </script>
 
 </body>
