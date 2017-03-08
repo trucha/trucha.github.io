@@ -27,13 +27,13 @@
 		<div id="firstentry">
 			<img src="images/renounceSQ.jpg" class="photo">
 			<p><span class="number">RENOUNCE</span></p>
-			<p>One day you leave, and LEAVE everything behind. <span class="italic">The Other Life</span><span id="More-Renounce"> More</span></p>
+			<p>One day you leave, and LEAVE everything behind. <span>The Other Life</span><span id="More-Renounce"> More</span></p>
 		</div>
 
 		<div id="secondentry">
 			<img src="images/insularSQ.jpg" class="photo">
 			<p><span class="number">INSULAR</span> </p>
-			<p>Like a revolving door, everything goes in circle. <span class="italic">Circular water</span> <a ref="http://www.jotdown.es/2012/11/virgilio-pinera-y-el-agua-por-todas-partes/" class="link">(see Virgilio Piñera)</a><span id="More-Insular"> More</span></p>
+			<p>Like a revolving door, everything goes in circle. <span class="italic">Circular water</span> <a href="http://www.jotdown.es/2012/11/virgilio-pinera-y-el-agua-por-todas-partes/">(see Virgilio Pi&ntilde;era)</a><span id="More-Insular"> More</span></p>
 		</div>
 		
 		<div id="thirdentry">
@@ -77,7 +77,7 @@
 </div>
 
 		<section id="More-RenouncePopUp">
-		<div id="CloseBar">
+		<div class="CloseBar">
 		<p class="closeText">X CLOSE</p>
 		</div>
 		<img src="images/renounceSQ.jpg">
@@ -85,7 +85,7 @@
 		</section>
 
 		<section id="More-InsularPopUp">
-		<div id="CloseBar">
+		<div class="CloseBar">
 		<p class="closeText">X CLOSE</p>
 		</div>
 		<img src="images/insularSQ.jpg">
@@ -93,7 +93,7 @@
 		</section>
 
 		<section id="More-SurvivalPopUp">
-		<div id="CloseBar">
+		<div class="CloseBar">
 		<p class="closeText">X CLOSE</p>
 		</div>
 		<img src="images/survivalSM.jpg">
@@ -106,32 +106,19 @@
 		$('#More-Renounce').click(function(){
 			$('#More-RenouncePopUp').addClass('active');
 		});
-		});
-		$(document).ready(function(){
-		$('#CloseBar').click(function(){
+		
+		$('.CloseBar').click(function(){
 			$('#More-RenouncePopUp').removeClass('active');
+		$('#More-InsularPopUp').removeClass('active');
+		$('#More-SurvivalPopUp').removeClass('active');
 		});
-	});
-
-	$(document).ready(function(){
+	
 		$('#More-Insular').click(function(){
 			$('#More-InsularPopUp').addClass('active');
 		});
-		});
-		$(document).ready(function(){
-		$('#CloseBar').click(function(){
-			$('#More-InsularPopUp').removeClass('active');
-		});
-	});
 
-	$(document).ready(function(){
 		$('#More-Survival').click(function(){
 			$('#More-SurvivalPopUp').addClass('active');
-		});
-		});
-		$(document).ready(function(){
-		$('#CloseBar').click(function(){
-			$('#More-SurvivalPopUp').removeClass('active');
 		});
 	});
 

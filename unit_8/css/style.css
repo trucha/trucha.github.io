@@ -73,12 +73,7 @@ article{
 	margin-right: 0.5em;
 
 }
-.link{
-	text-transform: italic;
-	color: blue;
-	background-color: none
-	border: none;
-}
+
 p{
 	font-family: 'Open Sans';
 }
@@ -180,7 +175,7 @@ h3{
 	line-height: 2em;
 	color: gray;
 }
-#CloseBar{
+.CloseBar{
 	background-color: #DCFFE0;
 	padding: 0.2em;
 	width: 100%;
@@ -219,6 +214,14 @@ a {
 	background-color: #FFBF89;
 	border: 0.2em solid rgba(237, 47, 15, .5);
 	}
+
+#secondentry a{
+	font-style: italic;
+	color: blue;
+	background-color: white;
+	border: none;
+	width: 100%;
+}
 
 a:hover{
 		background-color: red;
